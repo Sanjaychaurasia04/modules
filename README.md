@@ -20,7 +20,8 @@
 
 | Service | URL |
 |---------|-----|
-| **S3 Endpoint** | https://module-primer-s3-bucket.s3.eu-north-1.amazonaws.com/index+(2).html |
+| **S3 Endpoint** | https://module-primer-s3-bucket.s3.eu-north-1.amazonaws.com/index1.html |
+| **CloudFront URL** | https://d3rsc5ows45pdq.cloudfront.net/index1.html |
 
 ---
 
@@ -106,6 +107,7 @@ The website itself — **MAISON** — is a furniture e-commerce landing page bui
 - Set **Viewer protocol policy** to: `Redirect HTTP to HTTPS`
 - Leave all other settings as default → Click **Create distribution**
 - Wait for status to change from `Deploying` → `Enabled`
+- Access the site via: `https://d3rsc5ows45pdq.cloudfront.net/index1.html`
 
 ---
 
@@ -149,3 +151,14 @@ This policy grants **read-only** public access. No write, delete, or administrat
 - [x] All steps documented with screenshots
 - [x] README includes S3 endpoint and project details
 
+---
+
+## ⚠️ Cleanup Notice
+
+All AWS resources created for this project — including the **S3 bucket** and **CloudFront distribution** — will be **permanently deleted** immediately after successful project evaluation to prevent unnecessary billing.
+
+---
+
+## 📄 License
+
+This project was completed as part of the **Udacity Cloud DevOps Nanodegree** programme for educational purposes only.
